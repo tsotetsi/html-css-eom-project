@@ -1,7 +1,3 @@
-h1 {
-    background-color: red;
-}
-
 /* styling the header */
 header {
     background-color: #666666;
@@ -11,8 +7,31 @@ header {
     font-size: 20px;
 }
 
+/* styling the nav-bar */
+nav {
+    width: 30%;
+    background-color: #cccccc;
+    height: 300px;
+    display: inline-block;
+}
+
+/*/ styling the ul */
 nav ul {
     list-style: none;
     padding: 10px;
 }
 
+/* styling the article */
+article {
+    width: 70%;
+    height: 300px;
+    float: right;
+    background-color: blue;
+}
+
+footer {
+    padding: 20px;
+    background-color: red;
+    text-align: center;
+
+}
